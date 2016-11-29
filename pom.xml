@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.yiva</groupId>
+  <artifactId>spring-mvc</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <distributionManagement>
+    <site>
+      <id>website</id>
+      <url>scp://localhost:8080/www/website</url>
+    </site>
+  </distributionManagement>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <modules>
+  	<module>spring-mvc-webapp</module>
+  	<module>spring-mvc-model</module>
+  	<module>spring-mvc-controller</module>
+  	<module>spring-mvc-util</module>
+    <module>spring-mvc-core</module>
+    <module>spring-mvc-dao</module>
+  </modules>
+</project>
