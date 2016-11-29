@@ -21,6 +21,21 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.yiva</groupId>
+			<artifactId>spring-mvc-controller</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.yiva</groupId>
+			<artifactId>spring-mvc-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.yiva</groupId>
+			<artifactId>spring-mvc-util</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>spring-mvc-webapp</finalName>
